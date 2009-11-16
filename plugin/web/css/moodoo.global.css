@@ -1,0 +1,27 @@
+/* Global Styles */
+.error_list ul {
+  font-size: 12px;
+  margin: 0; padding: 1px;
+  list-style: none;
+  color: #F00;
+}
+
+/* buttons */
+.btn_add {
+  font-size: 12px;
+  cursor: pointer;
+  -moz-border-radius: 6px;
+  background: #eee;
+}
+/* iconos */
+div.icn {
+  width: 16px; height: 16px;
+  -moz-border-radius: 4px;
+  background-color: #FFF;
+  background-image: url('../images/mooDoo_sprites_v02.png');
+  background-repeat: no-repeat;
+}
+
+.icn_add                      { background-position:  -60px   0px; }
+.icn_ok                       { background-position:    0px   0px; }
+.icn_cancel                   { background-position: -200px   0px; }
